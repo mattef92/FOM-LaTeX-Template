@@ -29,7 +29,7 @@
 
 % Überschreibe die pdflatex default Schriftart mit helvet
 \usepackage[scaled]{helvet}
-\renewcommand\familydefault{\sfdefault} 
+\renewcommand\familydefault{\sfdefault}
 \usepackage[T1]{fontenc}
 
 % Mehrere Fussnoten nacheinander mit Komma separiert
@@ -199,6 +199,7 @@ sortlocale=de]{biblatex}
 		\vspace{2cm}
 		über das Thema\\
 		\Huge{\myTitel}\\
+		\large{\mySubTitel}\\
 		\vspace{0.2cm}
 	\end{center}
 	\normalsize
@@ -254,8 +255,9 @@ sortlocale=de]{biblatex}
 % Kapitel / Inhalte
 %-----------------------------------
 \input{kapitel/einleitung/einleitung}
-\input{kapitel/kapitel_1/kapitel_1}
 \input{kapitel/kapitel_2/kapitel_2}
+\input{kapitel/kapitel_3/kapitel_3}
+\input{kapitel/kapitel_4/kapitel_4}
 \input{kapitel/schlussbetrachtung/schlussbetrachtung}
 
 %-----------------------------------
